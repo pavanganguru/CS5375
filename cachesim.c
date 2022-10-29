@@ -14,6 +14,7 @@
 
 int main(int argc, char *argv[])
 {
+    printf("changes");
     if (argc != 3) {
         printf("Usage: %s <direct> <trace file name>\n", argv[0]);
         return 1;
